@@ -9,6 +9,7 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
+    "examples": "parcel examples/index.html --https --open --port 8080",
     "test": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto",
     "test:watch": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --watch",
     "cov": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --coverage",
