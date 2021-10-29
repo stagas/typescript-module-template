@@ -2,46 +2,23 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Test",
-      "type": "shell",
-      "command": "pnpm cov:watch",
-      "isBackground": true,
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-      "presentation": {
-        "group": "Project",
-        "reveal": "always",
-        "panel": "shared"
-      }
-    },
-    {
-      "label": "Build",
-      "type": "shell",
-      "command": "pnpm watch",
-      "isBackground": true,
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "presentation": {
-        "group": "Project",
-        "reveal": "never",
-        "panel": "shared"
-      }
-    },
-    {
-      "label": "Examples",
-      "type": "shell",
-      "command": "pnpm examples",
-      "isBackground": true,
+      "type": "npm",
+      "script": "cov:watch",
       "group": "build",
-      "presentation": {
-        "group": "Project",
-        "reveal": "never",
-        "panel": "shared"
-      }
+      "label": "Begin Test Coverage",
+      "isBackground": true
+    },
+    {
+      "type": "npm",
+      "script": "docs",
+      "group": "build",
+      "label": "Generate Docs"
+    },
+    {
+      "type": "npm",
+      "script": "examples",
+      "label": "Browse Examples",
+      "isBackground": true
     }
   ]
 }

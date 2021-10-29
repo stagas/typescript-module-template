@@ -8,18 +8,5 @@
       "message": "Coverage Watch"
     }
   ],
-  "VsCodeTaskButtons.tasks": [
-    {
-      "label": "Test",
-      "task": "Test"
-    },
-    {
-      "label": "Build",
-      "task": "Build"
-    },
-    {
-      "label": "Examples",
-      "task": "Examples"
-    }
-  ]
+  "todo-tree.tree.scanMode": "workspace only"
 }

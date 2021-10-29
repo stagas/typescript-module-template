@@ -1,13 +1,13 @@
 {
 	"recommendations": [
 		"stagas.vscode-web-test-runner-explorer",
-		"spencerwmiles.vscode-task-buttons",
 		"esbenp.prettier-vscode",
-		"tenninebt.vscode-koverage",
+		// "tenninebt.vscode-koverage",
 		"dbaeumer.vscode-eslint",
 		"usernamehw.errorlens",
 		"ryanluker.vscode-coverage-gutters",
 		"salbert.comment-ts",
-		"gabrielgrinberg.auto-run-command"
+		"gabrielgrinberg.auto-run-command",
+		"gruntfuggly.todo-tree"
 	]
 }
