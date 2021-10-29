@@ -1,0 +1,25 @@
+{
+  "auto-run-command.rules": [
+    {
+      "condition": [
+        "hasFile: coverage/lcov.info"
+      ],
+      "command": "coverage-gutters.watchCoverageAndVisibleEditors",
+      "message": "Coverage Watch"
+    }
+  ],
+  "VsCodeTaskButtons.tasks": [
+    {
+      "label": "Test",
+      "task": "Test"
+    },
+    {
+      "label": "Build",
+      "task": "Build"
+    },
+    {
+      "label": "Examples",
+      "task": "Examples"
+    }
+  ]
+}

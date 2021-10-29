@@ -30,3 +30,14 @@ export function sub(a: number, b: number): number {
 export function div(a: number, b: number): number {
   return a / b
 }
+
+/**
+ * Multiplies two numbers.
+ *
+ * @param a The first number
+ * @param b The second number
+ * @returns The product of the two numbers
+ */
+export function mul(a: number, b: number): number {
+  return a * b
+}

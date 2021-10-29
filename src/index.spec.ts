@@ -14,5 +14,5 @@ it('subs 2 numbers', () => {
 })
 
 it('divs 2 numbers', () => {
-  expect(div(5, 2)).to.equal(2.5)
+  expect(div(5, 2)).to.equal(3)
 })
