@@ -13,7 +13,16 @@
     "test": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto",
     "test:watch": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --watch",
     "cov": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --coverage",
-    "cov:watch": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --coverage --watch"
+    "cov:watch": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --coverage --watch",
+    "docs": "typedoc src/index.ts --emit docs --readme none --name 'My TypeScript Module' --hideBreadcrumbs && mv docs/README.md ./ && rimraf docs",
+    "lint": "eslint **/*.ts",
+    "fmt": "prettier --write **/*.ts",
+    "husky:install": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "keywords": [],
   "author": "stagas",
@@ -23,8 +32,20 @@
     "@esm-bundle/chai": "^4.3.4-fix.0",
     "@parcel/config-default": "^2.0.0",
     "@parcel/validator-typescript": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
     "@web/dev-server-esbuild": "^0.2.14",
     "@web/test-runner": "^0.13.20",
-    "parcel": "^2.0.0"
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "parcel": "^2.0.0",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typedoc": "^0.22.7",
+    "typedoc-plugin-markdown": "^3.11.3",
+    "typescript": "^4.4.4"
   }
 }
