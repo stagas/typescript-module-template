@@ -4,10 +4,10 @@
 
 ### Functions
 
-- [add](./README.md#add)
-- [div](./README.md#div)
-- [mul](./README.md#mul)
-- [sub](./README.md#sub)
+- [add](README.md#add)
+- [div](README.md#div)
+- [mul](README.md#mul)
+- [sub](README.md#sub)
 
 ## Functions
 
@@ -32,7 +32,7 @@ The sum of the two numbers
 
 #### Defined in
 
-[index.ts:8](https://github.com/stagas/typescript-module-template/blob/ff347e0/src/index.ts#L8)
+[index.ts:8](https://github.com/stagas/typescript-module-template/blob/main/src/index.ts#L8)
 
 ___
 
@@ -57,7 +57,7 @@ The division of the two numbers
 
 #### Defined in
 
-[index.ts:30](https://github.com/stagas/typescript-module-template/blob/ff347e0/src/index.ts#L30)
+[index.ts:30](https://github.com/stagas/typescript-module-template/blob/main/src/index.ts#L30)
 
 ___
 
@@ -83,7 +83,7 @@ The product of the two numbers
 
 #### Defined in
 
-[index.ts:43](https://github.com/stagas/typescript-module-template/blob/ff347e0/src/index.ts#L43)
+[index.ts:43](https://github.com/stagas/typescript-module-template/blob/main/src/index.ts#L43)
 
 ___
 
@@ -108,4 +108,4 @@ The difference of the two numbers
 
 #### Defined in
 
-[index.ts:19](https://github.com/stagas/typescript-module-template/blob/ff347e0/src/index.ts#L19)
+[index.ts:19](https://github.com/stagas/typescript-module-template/blob/main/src/index.ts#L19)
