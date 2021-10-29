@@ -15,7 +15,7 @@
     "test:watch": "npm run test -- --watch",
     "cov": "web-test-runner src/**/*.spec.ts --node-resolve --esbuild-target auto --coverage",
     "cov:watch": "npm run cov -- --watch",
-    "docs": "typedoc src/index.ts --emit docs --readme none --name 'My TypeScript Module' --publicPath ./ --hideBreadcrumbs && mv docs/README.md ./ && rimraf docs",
+    "docs": "typedoc src/index.ts --emit docs --readme none --name 'My TypeScript Module' --publicPath '' --gitRevision main --hideBreadcrumbs && mv docs/README.md ./ && rimraf docs",
     "lint": "eslint **/*.ts",
     "lint:fix": "npm run lint -- --fix",
     "fmt": "prettier --write **/*.ts",
