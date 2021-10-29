@@ -17,7 +17,7 @@
     "docs": "typedoc src/index.ts --emit docs --readme none --name 'My TypeScript Module' --hideBreadcrumbs && mv docs/README.md ./ && rimraf docs",
     "lint": "eslint **/*.ts",
     "fmt": "prettier --write **/*.ts",
-    "husky:install": "husky install"
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
