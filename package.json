@@ -1,8 +1,8 @@
 {
   "name": "typescript-module-template",
   "author": "stagas",
+  "short": "stagas/typescript-module-template",
   "description": "my typescript module",
-  "keywords": [],
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/stagas/typescript-module-template.git"
   },
+  "keywords": [],
   "source": "src/index.ts",
   "main": "dist/main.js",
   "type": "module",
