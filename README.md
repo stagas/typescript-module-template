@@ -1,4 +1,4 @@
-# My TypeScript Module
+# typescript-module-template
 
 ## Table of contents
 
